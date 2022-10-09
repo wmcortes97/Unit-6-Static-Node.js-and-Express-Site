@@ -1,0 +1,17 @@
+{
+  "name": "unit-6-static-node.js-and-express-site",
+  "version": "1.0.0",
+  "description": "Creating a portfolio with server side JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^3.0.2",
+    "save": "^2.9.0"
+  }
+}

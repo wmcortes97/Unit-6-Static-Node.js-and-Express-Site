@@ -1,0 +1,47 @@
+{ "projects": [
+
+{"id": 0,
+"project-name": "dummy text",
+"description":"dummy text",
+"technologies": ["technology1", "technology2"],
+"live_link":"dummy link",
+"github_link":"dummy link",
+"image_urls": ["image1path", "image2path", "image3path"]
+},
+{"id": 1,
+"project-name": "dummy text",
+"description":"dummy text",
+"technologies": ["technology1", "technology2"],
+"live_link":"dummy link",
+"github_link":"dummy link",
+"image_urls": ["image1path", "image2path", "image3path"]
+},
+{"id": 2,
+"project-name": "dummy text",
+"description":"dummy text",
+"technologies": ["technology1", "technology2"],
+"live_link":"dummy link",
+"github_link":"dummy link",
+"image_urls": ["image1path", "image2path", "image3path"]
+},
+{"id": 3,
+"project-name": "dummy text",
+"description":"dummy text",
+"technologies": ["technology1", "technology2"],
+"live_link":"dummy link",
+"github_link":"dummy link",
+"image_urls": ["image1path", "image2path", "image3path"]
+},
+{"id": 4,
+"project-name": "dummy text",
+"description":"dummy text",
+"technologies": ["technology1", "technology2"],
+"live_link":"dummy link",
+"github_link":"dummy link",
+"image_urls": ["image1path", "image2path", "image3path"]
+}
+
+]
+
+
+}
