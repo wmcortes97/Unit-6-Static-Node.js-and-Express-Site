@@ -12,7 +12,14 @@ app.use("/static", express.static("public"));
 
 //index/ home route
 app.get("/", (req, res) => {
-  res.render("index");
+  let landingPictures = [];
+  for (let i = 0; i < projects.length; i++) {
+    const { image_urls } = projects[i];
+    const imgLandingPage = image_urls[1]; //projects[1].image_urls[1] will return landing page for each one
+    landingPictures.push(imgLandingPage);
+  }
+
+  res.render("index", landingPictures);
 });
 
 //about route
