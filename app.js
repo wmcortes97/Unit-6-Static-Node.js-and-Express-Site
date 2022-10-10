@@ -15,11 +15,11 @@ app.get("/", (req, res) => {
   let landingPictures = [];
   for (let i = 0; i < projects.length; i++) {
     const { image_urls } = projects[i];
-    const imgLandingPage = image_urls[1]; //example: projects[1].image_urls[1] will return landing page for each one
-    landingPictures.push(imgLandingPage);
+    const landingPic = image_urls[1]; //example: projects[1].image_urls[1] will return landing page for each one
+    landingPictures.push(landingPic);
   }
 
-  res.render("index");
+  res.render("index", landingPictures);
 });
 
 //about route
