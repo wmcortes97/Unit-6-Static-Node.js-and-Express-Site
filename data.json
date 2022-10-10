@@ -5,7 +5,7 @@
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
-"github_link":"dummy link",
+"github_link":"https://github.com/wmcortes97/Unit-1-Quotes",
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 1,
@@ -13,7 +13,7 @@
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
-"github_link":"dummy link",
+"github_link":"https://github.com/wmcortes97/Unit-2-Pagination",
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 2,
@@ -21,7 +21,7 @@
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
-"github_link":"dummy link",
+"github_link":"https://github.com/wmcortes97/Unit-3-Interactive-Form",
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 3,
@@ -29,7 +29,7 @@
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
-"github_link":"dummy link",
+"github_link":"https://github.com/wmcortes97/Unit-4-OOP-Game-Show-App",
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 4,
@@ -37,7 +37,7 @@
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
-"github_link":"dummy link",
+"github_link":"https://github.com/wmcortes97/Unit-5-Public-API-Requests",
 "image_urls": ["image1path", "image2path", "image3path"]
 }
 
