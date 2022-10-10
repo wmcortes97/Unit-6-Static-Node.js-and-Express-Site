@@ -12,23 +12,7 @@ app.use("/static", express.static("public"));
 
 //index/ home route
 app.get("/", (req, res) => {
-  // let landingPictures = []; //holds array of pictures
-  // let projectLinks = [];
-  // let siteNames = [];
-  // const { id } = projects;
-  // for (let i = 0; i < projects.length; i++) {
-  //   const { image_urls } = projects[i];
-  //   const landingPic = image_urls[0]; //example: projects[1].image_urls[1] will return landing page for each one
-  //   landingPictures.push(landingPic);
-
-  //   const projectLink = `/project/${i}`;
-  //   projectLinks.push(projectLink);
-
-  //   const siteName =
-  // }
-  console.log(projects.length);
-
-  res.render("index", projects);
+  res.render("index", { projects });
 });
 
 //about route
@@ -44,10 +28,9 @@ app.get("/project/:id", (req, res) => {
   const { technologies } = projects[id]; //returns an array
   const { live_link } = projects[id];
   const { github_link } = projects[id];
-  const { img_urls } = projects[id];
-  const img1 = img_urls[0];
-  const img2 = img_urls[1];
-  const img3 = img_urls[2];
+  const { image_urls } = projects[id];
+
+  console.log(projects[1].image_urls[0]);
 
   const focusedProjectInfo = {
     id,
@@ -56,9 +39,6 @@ app.get("/project/:id", (req, res) => {
     technologies,
     live_link,
     github_link,
-    img1,
-    img2,
-    img3,
   };
   res.render("project", focusedProjectInfo);
 });
