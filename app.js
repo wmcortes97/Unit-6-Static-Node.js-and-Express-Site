@@ -18,9 +18,10 @@ app.get("/", (req, res) => {
     const landingPic = image_urls[0]; //example: projects[1].image_urls[1] will return landing page for each one
     landingPictures.push(landingPic);
     const projectLink = `/project/${i}`;
+    return projectLink;
   }
 
-  res.render("index", { landingPictures });
+  res.render("index", { landingPictures, projectLink });
 });
 
 //about route

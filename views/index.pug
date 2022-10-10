@@ -15,7 +15,7 @@ block content
     .projects-box.box.grid
         .cell
           each landingPicture in landingPictures
-            a(href='#')
+            a(href=`localhost:3000${projectLink}`)
               img.thumbnail(src= landingPicture, alt='')
               h5 My Site
 
