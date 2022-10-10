@@ -14,7 +14,7 @@
 "technologies": ["HTML", "CSS", "JavaScript"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-2-Pagination",
-"image_urls": ["/static/images/project_2/project_2_lp.jpg", "/static/images/project_2/project_2g.gif", "/static/images/project_2/project_2"]
+"image_urls": ["/static/images/project_2/project_2_lp.jpg", "/static/images/project_2/project_2g.gif", "/static/images/project_2/project_2.png"]
 },
 {"id": 2,
 "project_name": "Project 3: Interactive Form",
@@ -30,7 +30,7 @@
 "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented programming"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-4-OOP-Game-Show-App",
-"image_urls": ["/static/images/project_4/project_4_lp.jpg", "/static/images/project_4/project_4_g.gif", "/static/images/project_4/project_4p.gif"]
+"image_urls": ["/static/images/project_4/project_4_lp.jpg", "/static/images/project_4/project_4_g.gif", "/static/images/project_4/project_4p.png"]
 },
 {"id": 4,
 "project_name": "Project 5: Public API Requests",
