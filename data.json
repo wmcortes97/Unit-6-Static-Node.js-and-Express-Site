@@ -26,7 +26,7 @@
 },
 {"id": 3,
 "project_name": "Project 4: Object Oriented Programming, Game Application",
-"description":"dummy text",
+"description":"This project consisted of using OOP, this meant that we had to create ",
 "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented programming"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-4-OOP-Game-Show-App",
@@ -35,7 +35,7 @@
 {"id": 4,
 "project_name": "Project 5: Public API Requests",
 "description":"dummy text",
-"technologies": ["HTML", "CSS", "JavaScript", "API"],
+"technologies": ["HTML", "CSS", "JavaScript", "API", "Asynchronous Programming"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-5-Public-API-Requests",
 "image_urls": ["/static/images/project_5/project_5_lp.jpg", "/static/images/project_5/project_5g.gif", "image3path"]
