@@ -6,7 +6,7 @@
 "technologies": ["HTML", "CSS", "JavaScript"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-1-Quotes",
-"image_urls": ["/static/images/project_1/project_1_lp", "image2path", "image3path"]
+"image_urls": ["/static/images/project_1/project_1_lp.jpg", "image2path", "image3path"]
 },
 {"id": 1,
 "project_name": "Project 2: Pagination",
@@ -14,7 +14,7 @@
 "technologies": ["HTML", "CSS", "JavaScript"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-2-Pagination",
-"image_urls": ["/static/images/project_2/project_2_lp", "image2path", "image3path"]
+"image_urls": ["/static/images/project_2/project_2_lp.jpg", "image2path", "image3path"]
 },
 {"id": 2,
 "project_name": "Project 3: Interactive Form",
@@ -22,7 +22,7 @@
 "technologies": ["HTML", "CSS", "JavaScript"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-3-Interactive-Form",
-"image_urls": ["/static/images/project_3/project_3_lp", "image2path", "image3path"]
+"image_urls": ["/static/images/project_3/project_3_lp.jpg", "image2path", "image3path"]
 },
 {"id": 3,
 "project_name": "Project 4: Object Oriented Programming, Game Application",
@@ -30,7 +30,7 @@
 "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented programming"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-4-OOP-Game-Show-App",
-"image_urls": ["/static/images/project_4/project_4_lp", "image2path", "image3path"]
+"image_urls": ["/static/images/project_4/project_4_lp.jpg", "image2path", "image3path"]
 },
 {"id": 4,
 "project_name": "Project 5: Public API Requests",
@@ -38,7 +38,7 @@
 "technologies": ["HTML", "CSS", "JavaScript", "API"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-5-Public-API-Requests",
-"image_urls": ["/static/images/project_5/project_5_lp", "image2path", "image3path"]
+"image_urls": ["/static/images/project_5/project_5_lp.jpg", "image2path", "image3path"]
 }
 
 ]

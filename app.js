@@ -15,11 +15,11 @@ app.get("/", (req, res) => {
   let landingPictures = [];
   for (let i = 0; i < projects.length; i++) {
     const { image_urls } = projects[i];
-    const imgLandingPage = image_urls[1]; //projects[1].image_urls[1] will return landing page for each one
+    const imgLandingPage = image_urls[1]; //example: projects[1].image_urls[1] will return landing page for each one
     landingPictures.push(imgLandingPage);
   }
 
-  res.render("index", landingPictures);
+  res.render("index");
 });
 
 //about route
@@ -36,6 +36,9 @@ app.get("/project/:id", (req, res) => {
   const { live_link } = projects[id];
   const { github_link } = projects[id];
   const { img_urls } = projects[id];
+  const img1 = img_urls[0];
+  const img2 = img_urls[1];
+  const img3 = img_urls[2];
 
   const focusedProjectInfo = {
     id,
@@ -44,6 +47,9 @@ app.get("/project/:id", (req, res) => {
     technologies,
     live_link,
     github_link,
+    img1,
+    img2,
+    img3,
   };
   res.render("project", focusedProjectInfo);
 });

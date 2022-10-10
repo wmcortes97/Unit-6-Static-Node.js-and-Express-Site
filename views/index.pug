@@ -13,9 +13,9 @@ block content
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-      each img in landingPictures
         .cell
-          a(href='#')
-            img.thumbnail(src=`${landingPictures}`, alt='')
-            h5 My Site
+          each landingPicture in landingPictures
+            a(href='#')
+              img.thumbnail(src= landingPicture, alt='')
+              h5 My Site
 
