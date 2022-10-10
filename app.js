@@ -12,16 +12,23 @@ app.use("/static", express.static("public"));
 
 //index/ home route
 app.get("/", (req, res) => {
-  let landingPictures = [];
-  for (let i = 0; i < projects.length; i++) {
-    const { image_urls } = projects[i];
-    const landingPic = image_urls[0]; //example: projects[1].image_urls[1] will return landing page for each one
-    landingPictures.push(landingPic);
-    const projectLink = `/project/${i}`;
-    return projectLink;
-  }
+  // let landingPictures = []; //holds array of pictures
+  // let projectLinks = [];
+  // let siteNames = [];
+  // const { id } = projects;
+  // for (let i = 0; i < projects.length; i++) {
+  //   const { image_urls } = projects[i];
+  //   const landingPic = image_urls[0]; //example: projects[1].image_urls[1] will return landing page for each one
+  //   landingPictures.push(landingPic);
 
-  res.render("index", { landingPictures, projectLink });
+  //   const projectLink = `/project/${i}`;
+  //   projectLinks.push(projectLink);
+
+  //   const siteName =
+  // }
+  console.log(projects.length);
+
+  res.render("index", projects);
 });
 
 //about route

@@ -14,8 +14,8 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
         .cell
-          each landingPicture in landingPictures
-            a(href=`localhost:3000${projectLink}`)
-              img.thumbnail(src= landingPicture, alt='')
-              h5 My Site
+          each project in projects
+            a(href=`localhost:3000/project/${project.id}`)
+            img.thumbnail(src= `${project.img_urls[0]}` , alt='')
+            h5= project.project_name
 
