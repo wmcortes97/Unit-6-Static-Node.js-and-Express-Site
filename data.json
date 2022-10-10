@@ -2,27 +2,27 @@
 
 {"id": 0,
 "project_name": "Project 1: Random Quote Generator ",
-"description":"dummy text",
+"description":"This is the very first project I have submitted during the techdegree. The goal of this project was to create a working button that would generate a random quote teach time it was clicked. Each quote object contained a maximum of 4 properties.  ",
 "technologies": ["HTML", "CSS", "JavaScript"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-1-Quotes",
-"image_urls": ["/static/images/project_1/project_1_lp.jpg", "image2path", "image3path"]
+"image_urls": ["/static/images/project_1/project_1_lp.jpg", "/static/images/project_1/project_1g.gif", "image3path"]
 },
 {"id": 1,
 "project_name": "Project 2: Pagination",
-"description":"dummy text",
+"description":"The goal of the second project was to create pagination buttons that would display another set of students that were generated from a provided database. ",
 "technologies": ["HTML", "CSS", "JavaScript"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-2-Pagination",
-"image_urls": ["/static/images/project_2/project_2_lp.jpg", "image2path", "image3path"]
+"image_urls": ["/static/images/project_2/project_2_lp.jpg", "/static/images/project_2/project_2g.gif", "image3path"]
 },
 {"id": 2,
 "project_name": "Project 3: Interactive Form",
-"description":"dummy text",
-"technologies": ["HTML", "CSS", "JavaScript"],
+"description":"During this course, I learned how to use regex as a tool to validate forms. I also worked with a lot of conditional statements in order to make the form more interactive.",
+"technologies": ["HTML", "CSS", "JavaScript", "Regex"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-3-Interactive-Form",
-"image_urls": ["/static/images/project_3/project_3_lp.jpg", "image2path", "image3path"]
+"image_urls": ["/static/images/project_3/project_3_lp.jpg", "/static/images/project_3/project_3g.gif", "/static/images/project_3/project_3g_1.gif"]
 },
 {"id": 3,
 "project_name": "Project 4: Object Oriented Programming, Game Application",
@@ -30,7 +30,7 @@
 "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented programming"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-4-OOP-Game-Show-App",
-"image_urls": ["/static/images/project_4/project_4_lp.jpg", "image2path", "image3path"]
+"image_urls": ["/static/images/project_4/project_4_lp.jpg", "/static/images/project_4/project_4_g.gif", "image3path"]
 },
 {"id": 4,
 "project_name": "Project 5: Public API Requests",
@@ -38,7 +38,7 @@
 "technologies": ["HTML", "CSS", "JavaScript", "API"],
 "live_link":"dummy link",
 "github_link":"https://github.com/wmcortes97/Unit-5-Public-API-Requests",
-"image_urls": ["/static/images/project_5/project_5_lp.jpg", "image2path", "image3path"]
+"image_urls": ["/static/images/project_5/project_5_lp.jpg", "/static/images/project_5/project_5g.gif", "image3path"]
 }
 
 ]
