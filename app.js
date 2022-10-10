@@ -12,16 +12,31 @@ app.use("/static", express.static("public"));
 
 //index/ home route
 app.get("/", (req, res) => {
-  res.send("This is the home route");
+  res.render("index");
 });
 
 //about route
 app.get("/about", (req, res) => {
-  res.send("This is the about route");
+  res.render("about");
 });
 
 //project route for each project
-app.get("/project/:id");
+app.get("/project/:id", (req, res) => {
+  res.render("project");
+});
+
+//404 error object
+app.use((req, res, next) => {
+  const err = new Error("This page doesn't exist! 🥺 ");
+  err.status = 404;
+  next(err);
+});
+
+//custom error handler
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.render("error");
+});
 
 app.listen(3000, () => {
   console.log("this server is running on localhost:3000");
