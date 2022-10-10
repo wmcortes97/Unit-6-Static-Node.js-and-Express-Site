@@ -30,7 +30,7 @@ app.get("/project/:id", (req, res) => {
   const { github_link } = projects[id];
   const { image_urls } = projects[id];
 
-  console.log(projects[1].image_urls[0]);
+  //console.log(projects[1].image_urls[0]);
 
   const focusedProjectInfo = {
     id,
