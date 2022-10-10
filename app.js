@@ -22,7 +22,21 @@ app.get("/about", (req, res) => {
 
 //project route for each project
 app.get("/project/:id", (req, res) => {
-  res.render("project");
+  const { id } = req.params; // const id = req.params.id
+  const { project_name } = projects[id]; // const project_name = projects[0].project_name
+  const { technologies } = projects[id];
+  const { live_link } = projects[id];
+  const { github_link } = projects[id];
+  const { img_urls } = projects[id];
+
+  const focusedProjectInfo = {
+    id,
+    project_name,
+    technologies,
+    live_link,
+    github_link,
+  };
+  res.render("project", focusedProjectInfo);
 });
 
 //404 error object

@@ -1,7 +1,7 @@
 { "projects": [
 
 {"id": 0,
-"project-name": "Project 1: Random Quote Generator ",
+"project_name": "Project 1: Random Quote Generator ",
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
@@ -9,7 +9,7 @@
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 1,
-"project-name": "Project 2: Pagination",
+"project_name": "Project 2: Pagination",
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
@@ -17,7 +17,7 @@
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 2,
-"project-name": "Project 3: Interactive Form",
+"project_name": "Project 3: Interactive Form",
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
@@ -25,7 +25,7 @@
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 3,
-"project-name": "Project 4: Object Oriented Programming, Game Application",
+"project_name": "Project 4: Object Oriented Programming, Game Application",
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
@@ -33,7 +33,7 @@
 "image_urls": ["image1path", "image2path", "image3path"]
 },
 {"id": 4,
-"project-name": "Project 5: Public API Requests",
+"project_name": "Project 5: Public API Requests",
 "description":"dummy text",
 "technologies": ["technology1", "technology2"],
 "live_link":"dummy link",
