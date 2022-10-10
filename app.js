@@ -39,7 +39,11 @@ app.use((req, res, next) => {
 //custom error handler
 app.use((err, req, res, next) => {
   res.locals.error = err;
-  res.render("error");
+  if (err.status === 404) {
+    res.render("page-not-found");
+  } else {
+    res.render("error");
+  }
 });
 
 app.listen(3000, () => {
