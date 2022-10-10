@@ -24,7 +24,8 @@ app.get("/about", (req, res) => {
 app.get("/project/:id", (req, res) => {
   const { id } = req.params; // const id = req.params.id
   const { project_name } = projects[id]; // const project_name = projects[0].project_name
-  const { technologies } = projects[id];
+  const { description } = projects[id];
+  const { technologies } = projects[id]; //returns an array
   const { live_link } = projects[id];
   const { github_link } = projects[id];
   const { img_urls } = projects[id];
@@ -32,6 +33,7 @@ app.get("/project/:id", (req, res) => {
   const focusedProjectInfo = {
     id,
     project_name,
+    description,
     technologies,
     live_link,
     github_link,
