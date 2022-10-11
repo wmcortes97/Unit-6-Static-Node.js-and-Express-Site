@@ -10,6 +10,12 @@ app.set("view engine", "pug");
 //connecting static css files
 app.use("/static", express.static("public"));
 
+// //testing a non-404 error
+// app.use((req, res, next) => {
+//   const err = new Error("not a 404 error");
+//   next(err);
+// });
+
 //home route
 app.get("/", (req, res) => {
   res.render("index", { projects });
