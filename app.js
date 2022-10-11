@@ -39,6 +39,7 @@ app.get("/project/:id", (req, res, next) => {
 app.use((req, res, next) => {
   const err = new Error("This page doesn't exist! 🥺 ");
   err.status = 404;
+  //console.log("oopsies, this page doesn't exist");
   next(err);
 });
 
