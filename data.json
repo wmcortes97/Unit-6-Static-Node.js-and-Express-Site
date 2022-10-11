@@ -4,7 +4,7 @@
 "project_name": "Project 1: Random Quote Generator ",
 "description":"This is the very first project I have submitted during the techdegree. The goal of this project was to create a working button that would generate a random quote teach time it was clicked. Each quote object contained a maximum of 4 properties.  ",
 "technologies": ["HTML", "CSS", "JavaScript"],
-"live_link":"dummy link",
+"live_link":"https://wmcortes97.github.io/Unit-1-Quotes/",
 "github_link":"https://github.com/wmcortes97/Unit-1-Quotes",
 "image_urls": ["/static/images/project_1/project_1_lp.jpg", "/static/images/project_1/project_1g.gif", "/static/images/project_1/project_1p.png"]
 },
@@ -12,7 +12,7 @@
 "project_name": "Project 2: Pagination",
 "description":"The goal of the second project was to create pagination buttons that would display another set of students that were generated from a provided database. ",
 "technologies": ["HTML", "CSS", "JavaScript"],
-"live_link":"dummy link",
+"live_link":"https://wmcortes97.github.io/Unit-2-Pagination/",
 "github_link":"https://github.com/wmcortes97/Unit-2-Pagination",
 "image_urls": ["/static/images/project_2/project_2_lp.jpg", "/static/images/project_2/project_2g.gif", "/static/images/project_2/project_2.png"]
 },
@@ -20,23 +20,23 @@
 "project_name": "Project 3: Interactive Form",
 "description":"During this course, I learned how to use regex as a tool to validate forms. I also worked with a lot of conditional statements in order to make the form more interactive.",
 "technologies": ["HTML", "CSS", "JavaScript", "Regex"],
-"live_link":"dummy link",
+"live_link":"https://wmcortes97.github.io/Unit-3-Interactive-Form/",
 "github_link":"https://github.com/wmcortes97/Unit-3-Interactive-Form",
 "image_urls": ["/static/images/project_3/project_3_lp.jpg", "/static/images/project_3/project_3g.gif", "/static/images/project_3/project_3g_1.gif"]
 },
 {"id": 3,
 "project_name": "Project 4: Object Oriented Programming, Game Application",
-"description":"This project consisted of using OOP, this meant that we had to create ",
+"description":"I learned object oriented programming and incorporated my knowledge of it by creating my own objects that contains methods and data that can then be called by other objects  ",
 "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented programming"],
-"live_link":"dummy link",
+"live_link":"https://wmcortes97.github.io/Unit-4-OOP-Game-Show-App/",
 "github_link":"https://github.com/wmcortes97/Unit-4-OOP-Game-Show-App",
 "image_urls": ["/static/images/project_4/project_4_lp.jpg", "/static/images/project_4/project_4_g.gif", "/static/images/project_4/project_4p.png"]
 },
 {"id": 4,
 "project_name": "Project 5: Public API Requests",
-"description":"dummy text",
+"description":"I learned asynchronous programming by using data provided by an API and creating a directory that randomized 12 users each time.",
 "technologies": ["HTML", "CSS", "JavaScript", "API", "Asynchronous Programming"],
-"live_link":"dummy link",
+"live_link":"https://wmcortes97.github.io/Unit-5-Public-API-Requests/",
 "github_link":"https://github.com/wmcortes97/Unit-5-Public-API-Requests",
 "image_urls": ["/static/images/project_5/project_5_lp.jpg", "/static/images/project_5/project_5g.gif", "/static/images/project_5/project_5p.png"]}
 
