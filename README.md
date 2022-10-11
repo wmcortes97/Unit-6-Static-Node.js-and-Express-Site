@@ -6,5 +6,6 @@ Creating a portfolio with server side JavaScript
 
 1.  Used a purple color scheme by changing background color of wrapper and profile column.
 2.  Rounded corners of profile photo and buttons
-3.  While hovering on .cell elements and buttons, the object enlarges.
+3.  While hovering on .cell elements and buttons, the object enlarges and text changes to white
 4.  Additionally, when hovering, the object has a transition of .5
+5.  Downloaded font from google fonts
