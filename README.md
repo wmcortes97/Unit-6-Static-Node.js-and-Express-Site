@@ -9,3 +9,15 @@ Creating a portfolio with server side JavaScript
 3.  While hovering on .cell elements and buttons, the object enlarges and text changes to white
 4.  Additionally, when hovering, the object has a transition of .5
 5.  Downloaded font from google fonts
+
+## Color Reference
+
+Used CSS Color Palette from https://palettes.shecodes.io/palettes/1623
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm start
+```
