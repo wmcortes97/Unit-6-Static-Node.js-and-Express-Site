@@ -10,6 +10,7 @@ app.set("view engine", "pug");
 //connecting static css files
 app.use("/static", express.static("public"));
 
+//error will be triggered due to missing favicon so implemented this
 app.get("/favicon.ico", (req, res) => {
   res.sendStatus(200);
 });
