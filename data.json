@@ -14,7 +14,7 @@
 "technologies": ["HTML", "CSS", "JavaScript"],
 "live_link":"https://wmcortes97.github.io/Unit-2-Pagination/",
 "github_link":"https://github.com/wmcortes97/Unit-2-Pagination",
-"image_urls": ["/static/images/project_2/project_2_lp.jpg", "/static/images/project_2/project_2g.gif", "/static/images/project_2/project_2.png"]
+"image_urls": ["/static/images/project_2/project_2_lp.jpg", "/static/images/project_2/project_2g.gif", "/static/images/project_2/project_2p.png"]
 },
 {"id": 2,
 "project_name": "Project 3: Interactive Form",
